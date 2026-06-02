@@ -44,24 +44,28 @@ if user_query := st.chat_input("Ask a biological protocol..."):
         st.markdown(user_query)
         
     # Generate the Twin's Response
+    # Generate the Twin's Response
     with st.chat_message("assistant"):
         response_placeholder = st.empty()
         with st.spinner("Analyzing neural parameters..."):
             try:
-                # Direct invocation to your working LangChain RAG pipeline
-                # Adjust keys if your engine's invoke payload differs
+                # 1. Format the conversation history into a readable string for the model
+                history_context = ""
+                for msg in st.session_state.messages[:-1]:
+                    history_context += f"{msg['role'].capitalize()}: {msg['content']}\n"
+                
+                # 2. Feed BOTH the history and the query into your LangChain engine
+                # This explicitly forces the model to look at past turns!
                 raw_response = twin_engine.rag_chain.invoke({
                     "input": user_query, 
-                    "chat_history": st.session_state.messages[:-1] # Passes history
+                    "chat_history": history_context  # Passes the formatted text stream
                 })
                 
-                # Check if your engine returns a dict or raw string
                 response_text = raw_response if isinstance(raw_response, str) else raw_response.get("text", str(raw_response))
                 
             except Exception as e:
                 response_text = f"An execution error occurred: {str(e)}"
             
-            # Print response to screen
             response_placeholder.markdown(response_text)
             
     # Save response to history
