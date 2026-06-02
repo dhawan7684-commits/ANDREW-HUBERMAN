@@ -1,0 +1,175 @@
+Thank you for joining the Huberman Lab Podcast Neural Network — a once-a-month newsletter with science and science-related tools for everyday life. The purpose of this newsletter is to provide you with actionable information in condensed form.
+
+Aging causes a natural decline in the range of motion over which our limbs and joints can move. From age 20 to 49, our flexibility declines by ~10% each decade. Studies show, however, that a dedicated stretching routine can and will give you improved range of motion in your limbs and joints, aka more “flexibility.”
+
+During Episode #67, I discussed the biological mechanisms of flexibility, highlighting the communication between the nervous system, muscles and surrounding connective tissue. I also detailed key features of the major four different types of stretches.
+
+Below, I describe the key takeaway messages for building flexibility, and I outline sample protocols that can be used and modified to develop your own optimal stretching routine.
+
+Benefits of Stretching
+In addition to alleviating general feelings of “tightness,” increasing flexibility can also contribute to improvements in overall general health: balance/stability, improved posture, smoother gait and elevated physical performance; and it can reduce pain. Stretching can also reduce inflammation — some data in animal models suggest it may even potentially reduce the risk of cancer.
+
+No Need to Stretch Intensely (or for Very Long)
+​Wyon et al. showed that “microstretching” (defined for the study as 30-40%, where 100% would be slightly painful) is more effective than increasing the intensity of a stretch. So, whatever stretching routine you adopt, know that you do not need to push your limbs/joints to a point where you feel pain. Consistency and frequencywill pay dividends for long-term flexibility — not intensity! Most people will also be pleased to learn that an effective stretching protocol can take as little as 5 minutes per day.
+
+Static Stretching
+While dynamic and ballistic stretching (both types involve swinging limbs and using momentum) can be helpful prior to performance-based activity and sports, a routine built on static stretching appears to be the most effective at increasing long-term flexibility.
+
+​Bandy et al. determined that 30 seconds is the minimum threshold for flexibility benefits for static hold stretches (generating no momentum to move into or through the stretch). The stretching routine frequency is a key factor in long-term flexibility improvements. In a comprehensive review of different stretching routines, Palma et al. found that a minimum stretching frequency of 5x per week, with a total stretching time of 5 minutes/muscle group/week, was optimal.
+
+Static Stretching — Protocol Basics
+Do 2-4 sets of 30-second static holds per muscle group, 5 days per week.
+
+Note: Meeting the goal of 5 minutes per muscle group per week can also be achieved by holding each stretch longer (e.g., 60 seconds instead of 30 seconds). By increasing the hold time per stretch, you can reduce the frequency (such as stretching every other day as opposed to 5x per week). That said, don’t try to stretch once or twice a week for a long time and expect much progress; better to do a little bit each day or so. The research shows that consistency beats duration and intensity when it comes to increasing flexibility.
+
+Protocol #1: Static Stretching
+Protocol #1: Static Stretching
+Disclaimer: The Huberman Lab Podcast is for general informational purposes only and does not constitute the practice of
+medicine, nursing or other professional health care services, including the giving of medical advice, and no doctor/patient
+relationship is formed. The use of information on this podcast or materials linked from this podcast is at the user’s own risk. The
+content of this podcast is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Users should not
+disregard or delay in obtaining medical advice for any medical condition they may have and should seek the assistance of their
+health care professionals for any such conditions.
+Stretch Static Hold
+(per side) Sets Order Description (Repeat on other side)
+Standing
+Quadriceps
+Stretch
+30 seconds 3 Alternate
+Stand up tall and shift your weight to the R.
+leg. Lift your L. foot and grasp it with your L.
+hand. Pull your L. foot toward your glutes
+until you feel the stretch in your quads.
+Standing
+Hamstring
+Stretch
+30 seconds 3 Alternate
+Stand upright with the spine in a neutral
+position. Place the R. leg in front of the
+body with the foot flexed, heel pushed into
+the ground, and toes pointing toward the
+ceiling. Slightly bend the L. knee and gently
+lean forward until you feel the stretch in
+your R. hamstring.
+Figure 4 Stretch 30 seconds 3 Alternate
+With your back on a mat, bend your knees
+and plant your feet hip distance apart on the
+mat. Cross your R. leg over your L. thigh,
+placing the outside of your R. calf just
+above your L. knee. Allow your R. knee to
+open outward and pull your L. thigh toward
+your abdomen and hold.
+Supine Spinal
+Twist 30 seconds 3 Alternate
+Lie on your back and hug your R. leg into
+your abdomen. Place your L. hand on your
+knee and extend your R. arm along the floor
+at shoulder height. Draw your R. knee over
+to your left side. Aim to keep your R.
+shoulder on the floor and turn your head to
+the right.
+
+PNF Stretching
+The nervous system and muscles are in constant communication to keep joints and limbs within a “safe” range of motion. One such safety mechanism is the presence of intrafusal spindle fibers that communicate muscle stretch to the spinal cord and brain. If a stretch becomes excessive (e.g., arms swinging uncomfortably far behind your back), the spindle fibers activate specific motor neurons that cause the associated muscle(s) to rapidly contract, thereby bringing muscles/joints back to the normal range of motion.
+
+Another protective mechanism is provided by the Golgi tendon organs (GTOs), which sense the amount of load or tension on a muscle. If GTOs sense too high of a load (i.e., trying to move something too heavy), the GTOs will communicate to the spinal cord and inhibit the motor neuron’s ability to contract the muscle, thereby preventing possible injury.
+
+PNF (Proprioceptive Neuromuscular Facilitation) stretching leverages these mechanisms to actually increase flexibility. PNF, also called “contract-relax stretching,” combines stretching and contracting of muscles to increase joint range of motion and, in some cases, contractile strength (listen here to learn about underlying mechanisms). Here is a basic PNF routine:
+Protocol #2: PNF Stretching
+Disclaimer: The Huberman Lab Podcast is for general informational purposes only and does not constitute the practice of
+medicine, nursing or other professional health care services, including the giving of medical advice, and no doctor/patient
+relationship is formed. The use of information on this podcast or materials linked from this podcast is at the user’s own risk. The
+content of this podcast is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Users should not
+disregard or delay in obtaining medical advice for any medical condition they may have and should seek the assistance of their
+health care professionals for any such conditions.
+Stretch Description
+Leg Raise with Exercise
+Band
+Lie down on your back with legs straight and place a resistance
+band around your foot. Pull your leg back, keeping your knee
+straight, while keeping the other leg on the ground. Pull the leg
+back as far as you can until you feel a stretch. Hold it for 5-10
+seconds. Push your leg back down to the ground, resisting it with
+the band. Pull it back up and bring it back slightly further than
+before. Hold it for another 5-10 seconds before driving it back
+down to the ground. Repeat five times and then switch legs.
+Glute Stretch with Towel
+Grab a rolled towel and lie on your back with your legs straight out.
+Bend one knee and bring the leg in toward your chest. Place the
+towel around the back of the bent knee, holding each end of the
+towel. Pull back with the towel with both hands to stretch your
+glute. Then, drive your leg forward into the towel for 3 seconds.
+Relax and pull your knee in closer to your chest. Repeat five times
+and then switch legs.
+Calf Stretch with
+Exercise Band
+Sit on the ground with your legs straight in front of you. Put a
+resistance band around one foot and grab the band with both
+hands. Pull the band back, pulling your toes up towards your shin
+and feeling a stretch in your calf muscle. Push back against the
+band with your foot, pointing your toes down as far as you can.
+Then, relax and pull your toes back farther than the previous time.
+Hold for 5 seconds and flex your calf again. Repeat five times total
+and then switch legs.
+Note: PNF stretching can also be done with an exercise partner, who can help provide additional depth in each
+successive stretching cycle.
+
+Antagonistic Muscle Groups
+Alternating exercises of antagonistic muscle groups (e.g., flexors and extensors) can improve overall performance. For example, if you were to alternate barbell or dumbbell rows or pullups (all of which are pulling-based back exercises) with barbell or dumbbell bench presses or shoulder presses (pushing exercises), this would allow the chest, shoulders and triceps a period to “relax” while the biceps are actively engaged (during pulling movements) and for your back and biceps to relax during your pushing exercises. There is, of course, some crossover activation of antagonistic muscles, but this alternating of push and pull movements/sets can be very effective, nonetheless.
+
+The relaxation occurs using some of the same mechanisms described above, where spindle fibers are released in the triceps, causing “relaxation” of the muscle while the GTOs become activated in the biceps. This phenomenon is termed autogenic inhibition, where the contraction of one muscle group “relaxes” the antagonistic muscle group.
+Protocol #3: Antagonistic
+Muscle Group Training
+Disclaimer: The Huberman Lab Podcast is for general informational purposes only and does not constitute the practice of
+medicine, nursing or other professional health care services, including the giving of medical advice, and no doctor/patient
+relationship is formed. The use of information on this podcast or materials linked from this podcast is at the user’s own risk. The
+content of this podcast is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Users should not
+disregard or delay in obtaining medical advice for any medical condition they may have and should seek the assistance of their
+health care professionals for any such conditions.
+Stretch Reps Sets Pair Description
+Bicep Dubbell
+Curl 10-12 3-4 Alternate
+Standing with a dumbbell in each hand,
+ensure elbows rest at sides and forearms
+are extended out in front of your body. Bring
+the dumbbells all the way up to your
+shoulders by bending your elbows. Reverse
+the curl slowly and repeat.
+Tricep
+Dumbbell
+Extension
+10-12 3-4 Alternate
+Lift one or two dumbbells directly overhead,
+ensuring head stays aligned over chest and
+shoulders are relaxed. Extend both arms
+fully and slowly lower the weight down,
+bringing the weight behind the head by
+bending at the elbows. Reverse the
+movement once you reach a 90-degree bend
+at the elbow and return to the starting
+position.
+Barbell Curl 10-12 3-4 Alternate
+Standing tall with core braced, hold the
+barbell with your hands just outside your
+hips, using an underhand grip. Keeping your
+chest up and your elbows tight to your
+sides, curl the barbell up to shoulder height.
+Lower the bar slowly and repeat.
+Lying Tricep
+Extension 10-12 3-4 Alternate
+Lying on your back on a flat bench, hold the
+dumbbells above you with your arms
+extended. Keeping your upper arms still,
+bend at the elbows and slowly lower the
+dumbbells either to the side of your head or
+slightly behind your head.
+Stay Connected
+Hopefully, these protocols serve as useful examples in designing a routine stretching practice tailored to your goals. They can and should be adapted to your goals and current routines. Remember, consistency is the key to enhancing flexibility. By incorporating some or all of these approaches into your training (or even while you take calls, etc.), you can make sure you are offsetting the loss in flexibility that would otherwise occur, and building a supple, strong body by enhancing pathways between your nervous system and muscles.
+
+Stay in touch! New episodes of the Huberman Lab Podcast are out each Monday on YouTube, Apple Podcasts, Spotify, Google Podcasts and all major podcast platforms. Please subscribe to those channels and provide feedback and suggestions (the YouTube Comments section is the best place to do that, as we read them all). New, short, actionable clips from the Huberman Lab Podcast are available on our YouTube Clips Channel. I post additional science and science-based tools on Instagram, Twitter, Facebook and LinkedIn.
+
+Thank you for your interest in science!
+
+Best wishes,
+Andrew
+

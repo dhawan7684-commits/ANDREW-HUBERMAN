@@ -1,0 +1,73 @@
+Thank you for joining the Huberman Lab Neural Network — a once-a-month newsletter with science and science-related tools for everyday life. This newsletter aims to provide you with actionable information in a condensed form.
+
+Water is a vital nutrient, making up approximately 60-80% of human cells and tissues. In Episode #114, I explain the physical and chemical properties of water and describe the foundational role that water plays in cellular function, mental and physical performance and our overall health. This newsletter explains how to optimize your hydration, clean your tap water and adjust the type of water you consume, but only if necessary.
+
+Cells and Water
+Water is key to maintaining healthy cellular function, including the buildup and breakdown of cellular components, chemical reactions, and protein structure and function, and it acts as a solvent (dissolving agent) and can even function as an antioxidant — protecting cells from damage by free radicals.
+
+Optimize Hydration
+Dehydration (even mild dehydration) negatively impacts physical performance, alertness and cognitive focus, and thereby can cause “brain fog.” To ensure proper hydration, aim to consume 8 oz (237 mL) of fluid per hour for the first 10 hours of your day. Note: these are averages! You do not need to neurotically consume 8 oz every hour but rather 16 oz on waking, then 8 oz a few hours later, 32 oz later, 4 oz, etc. Eighty ounces in the first 10 hours of your day, spread out as is practical, is just fine. The issue is simply that most people do not drink enough water volume in the waking hours of their day. Drinking ~80 oz in the first 10 hours after waking can help most people offset dehydration.
+
+Why the first 10 hours? The body’s circadian clock (i.e., sleep and wakefulness pattern) strongly regulates the cells within the kidney and gut via the hormone vasopressin. Within the first 10 hours after waking, the kidney works efficiently to filter fluid, then output reduces (so hopefully, you do not frequently wake up during the night to urinate!). Yes, drinking more water in the daytime will have you going to the restroom more often, but that is not a bad thing.
+
+Waking 1-2 x per night to urinate is not an indication of pathology, but if you struggle with more frequent nighttime urination, try to:
+
+Sufficiently hydrate during the day.
+Reduce fluid intake in the evening and in the 2-3 hrs before sleep.
+If you need to drink at night, sip water slowly; the rate of fluid consumption impacts the need to urinate, as does the volume you consume, of course.
+Exercise, Heat and Hydration
+Above meeting your baseline hydration requirements (80 oz/10 hrs of waking), other factors such as exercise, sweating, excess heat, dry environments and caffeine intake affect your hydration requirements. When exercising, follow the Galpin Equation as a guideline for the amount of additional fluid you should consume (again, on average — no need to be neurotically obsessed with consuming exact amounts at exact times during exercise, unless you prefer to.
+
+The Galpin Equation:
+
+Body weight (in lbs.) divided by 30 = number of ounces to consume every 15-20 minutes
+Body weight (in kg.) × 2 = number of mL to consume every 15-20 minutes
+If you are in hot temperatures or sweating, increase the Galpin Equation guidelines by an additional 50-100%. For every 20-30 minutes in the sauna, consume an extra 8-16 oz of fluid.
+
+Also, be mindful of how caffeine consumption increases your overall water intake needs, as it is a diuretic. If you drink caffeine, increase fluid intake (ideally with electrolytes like sodium, potassium and magnesium) by 2:1 to offset dehydration. In other words, if you drink an 8-ounce coffee with caffeine, ingest 16 oz of water, ideally with low/no-sugar electrolytes like LMNT, or simply a pinch of salt.
+
+Thirst is a good indicator that you are not sufficiently hydrated, but your perception of thirst lags behind the body’s true hydration status. So not being thirsty does not mean you don’t need more fluid. Therefore, preemptively plan your hydration strategy, especially in extreme weather or high-intensity activities.
+
+Tap Water
+Due to the scale and limitations of standard municipal filtration systems, most tap water does contain contaminants, which, in high concentrations, negatively affect health. These can include:
+
+Disinfection byproducts (DBPs) — the remnants of municipal water disinfection treatment
+Some DBPs are endocrine disruptors that negatively impact fertility in males and females.
+High fluoride negatively impacts thyroid health (fluoride at ≥0.5 mg/L can disrupt thyroid function).
+Lead in the pipes going into your house/building; this is rarer in developed countries but still exists some places.
+For a water analysis of your tap water, Google your zip code for a water quality report, or contact the Safe Drinking Water Hotline. You can find additional resources from the Centers for Disease Control and Prevention (CDC).
+
+Note: In the U.S., water reports should be provided for free by the city, and you should not have to pay for results. However, if you choose, you can also test tap water at home (approximately $25) or send a water sample for independent laboratory analysis (approximately $100+).
+
+Filtering Tap Water
+For most people, it will be healthier to filter their tap water. Many pitcher filters (e.g., Brita) can filter some disinfectant byproducts but do not trap smaller particles, notably fluoride. Based on your budget, consider these options for filtering tap water, which vary by cost:
+
+Note: The Huberman Lab podcast and I have no affiliation with any brands, companies or Amazon vendors related to water filters or tests and do not receive any monetary compensation from them.
+
+< $100: pitcher filters that include fluoride filtration (e.g., ClearlyFiltered Pitcher)
+$400: countertop filters for larger water volumes (e.g., Berkey Filters)
+$800+: whole house water filters (e.g., Aquasana Filters)
+Zero-cost option: rest 1-5 gallons of water, uncapped, at room temperature for ~1 day. Sediment will fall to the bottom, so you can pour off the top two-thirds for drinking.
+Note: do not opt for boiling tap water as a filtration method because high heat can actually make contaminants worse.
+Water Types
+Tap water with higher magnesium concentrations (ideally: 8.3-19.4 mg/L) is more alkaline and, therefore, improves absorption. This has nothing to do with adjusting the pH of your body as some water brands suggest! That is pure falsehood. The pH of your tissues is regulated tightly to remain in a given range.
+
+Water’s ion concentration profile and filtration processes produce different types of water:
+
+Hard water: has higher magnesium and calcium concentrations, which increase the pH (and thus can improve absorption, but again it does NOT change the pH of your tissues ).
+There is evidence that more alkaline water can reduce inflammation and blood pressure and lower risks of cardiovascular disease.
+Distilled or double-distilled water: removes calcium and magnesium. Due to the health benefits of these ions, do not regularly drink this type of water.
+Reverse osmosis water: repeated filtration traps many contaminants to more thoroughly clean water. This type of water is safe to drink. However, it’s quite expensive and can lack certain key minerals.
+Hydrogen-enriched, electrolyzed-reduced, deuterium-depleted water: has higher pH than normal tap water. This type of water has not been studied extensively. However, at least one study has shown inflammation reductionand improvement in other health metrics, likely due to improved hydration of cells.
+If you choose, you can make this type of water at home by dissolving a molecular hydrogen tablet (which contains a specific type of magnesium) in a glass of water for 5-15 minutes.
+Note: If your tap water has a high magnesium concentration, the water is already sufficiently alkaline.
+Structured water: in the presence of some solids or liquids, the configuration of water can change, causing the “like” charges (i.e., positive/positive) to attract and form stronger bonds. There is currently no scientific evidence supporting the health benefits of structured water. However, some theorize that water is structured in cells and has additional health benefits. This is actually a controversial area with strong opinions (!) and a growing body of science so stay tuned.
+In just a few steps, and for low/no cost (I cover the zero-cost options for those that can’t afford any of the options above on the podcast), you can adjust your tap water, making it cleaner, healthier and more rapidly absorbable to improve your overall health and aid high levels of performance each day.
+
+Stay Connected
+New episodes of the Huberman Lab podcast are out each Monday on YouTube, Apple Podcasts, Spotify and all major podcast platforms. Please subscribe to those channels. I post additional science and science-based tools on Instagram, Twitter and Facebook and LinkedIn.
+
+Thank you for your interest in science!
+
+Best wishes,
+Andrew

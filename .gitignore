@@ -1,0 +1,42 @@
+# ==========================================
+# 🧠 Huberman Digital Twin GitIgnore
+# ==========================================
+
+# --- Python Environment & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+.env
+
+# --- Operating System Files ---
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- Streamlit Configurations & Application State ---
+.streamlit/config.toml
+.streamlit/secrets.toml
+st_state/
+
+# --- Local Vector Databases & Caches (Do not upload your embedded database) ---
+chroma_db/
+.chroma/
+faiss_index/
+.pydantic_ai_cache/
+
+# --- User Session Logs & Local Memories ---
+long_term_memory.json
+*.log
+session_traces/
+
+# --- IDEs and Text Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
