@@ -1,5 +1,6 @@
 import os
 import streamlit as st
+from datetime import datetime
 from dotenv import load_dotenv
 from digital_twin_engine import HubermanDigitalTwin
 
@@ -11,20 +12,19 @@ PROFILE_FILE_PATH = "user_profile.txt"
 st.set_page_config(
     page_title="Huberman Digital Twin",
     page_icon="🧠",
-    layout="wide"  # Keeps the wide panel layout
+    layout="wide"
 )
 
-# ─── AUTOMATIC SESSION CLEANUP (Wipes memory when chat ends/resets) ───
+# ─── AUTOMATIC SESSION CLEANUP ───
 if "messages" not in st.session_state:
     if os.path.exists(PROFILE_FILE_PATH):
         try:
             os.remove(PROFILE_FILE_PATH)
         except Exception:
-            pass # Failsafe if file is temporarily locked by another process
+            pass
 
-    # Initialize the chat with the conversational greeting
     st.session_state.messages = [
-        {"role": "assistant", "content": "Welcome. Let's discuss science and science-related tools. What's on your mind today regarding human biology or behavior?"}
+        {"role": "assistant", "content": "Welcome. Let's discuss science and science-related tools. What's on your mind today regarding human biology or behavior?", "time": ""}
     ]
 
 # ─── MASTER LAYOUT DIVISION ───
@@ -35,7 +35,6 @@ with master_left_col:
     st.markdown("### 🗂️ User Insights & Memory")
     st.caption("Key facts extracted dynamically from your current session:")
     
-    # Read and display facts live from your standalone text file
     if os.path.exists(PROFILE_FILE_PATH) and os.path.getsize(PROFILE_FILE_PATH) > 0:
         with open(PROFILE_FILE_PATH, "r", encoding="utf-8") as f:
             profile_facts = f.read()
@@ -43,21 +42,18 @@ with master_left_col:
     else:
         st.info("Start chatting! As you share habits or preferences, they will appear right here.")
         
-    # Manual clear button fallback that forces a session state reset
     if st.button("🗑️ Reset Chat & Wipe Memory"):
         if os.path.exists(PROFILE_FILE_PATH):
             try:
                 os.remove(PROFILE_FILE_PATH)
             except Exception:
                 pass
-        # Clear Streamlit conversation state completely
         for key in list(st.session_state.keys()):
             del st.session_state[key]
         st.rerun()
 
 # 🧠 PANEL 2: RIGHT SIDE (Main Core Application Interface)
 with master_right_col:
-    # Header Sub-Layout: Left (Portrait Badge) | Right (Title Text Stack)
     header_pic, header_txt = st.columns([1, 5])
     
     with header_pic:
@@ -87,21 +83,28 @@ with master_right_col:
             st.error(f"Initialization Failed: {str(err)}")
             st.stop()
 
-    # Render Conversation Feed
+    # Render Conversation Feed with Time Labels
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
+            if message.get("time"):
+                st.caption(f"🕒 Time Sent: {message['time']}")
             st.markdown(message["content"])
 
     # Handle User Query Input
     if user_query := st.chat_input("Message your Digital Twin..."):
         
-        # Display human input
-        st.session_state.messages.append({"role": "user", "content": user_query})
+        # Capture precise real-world execution timestamp
+        current_now = datetime.now()
+        timestamp_str = current_now.strftime("%I:%M %p (%A)") # e.g. "08:30 AM (Monday)"
+        
+        # Display human input with time
+        st.session_state.messages.append({"role": "user", "content": user_query, "time": timestamp_str})
         with st.chat_message("user"):
+            st.caption(f"🕒 Time Sent: {timestamp_str}")
             st.markdown(user_query)
             
-        # Trigger background extraction BEFORE generating the response
-        twin_engine.extract_and_save_profile_facts(user_query)
+        # Trigger timeline-aware background extraction
+        twin_engine.extract_and_save_profile_facts(user_query, timestamp_str)
             
         # Generate and show assistant response
         with st.chat_message("assistant"):
@@ -117,10 +120,12 @@ with master_right_col:
                         else:
                             formatted_history.append(AIMessage(content=msg["content"]))
                     
+                    # Wrap query inside a contextual timeline tracking array dynamically
                     concise_query = (
-                        f"{user_query}\n\n"
+                        f"[CURRENT TIME CONTEXT: {timestamp_str}]\n"
+                        f"User Message: {user_query}\n\n"
                         "[Constraint: Provide a highly concise, punchy response (max 3-4 sentences). "
-                        "Deliver an organic, conversational insight or biological mechanism matching your persona.]"
+                        "Leverage the current time context naturally if the query implies a time-sensitive biological routine.]"
                     )
                     
                     raw_response = twin_engine.rag_chain.invoke({
@@ -135,5 +140,5 @@ with master_right_col:
                 
                 response_placeholder.markdown(response_text)
                 
-        st.session_state.messages.append({"role": "assistant", "content": response_text})
-        st.rerun()  # Forces a UI refresh to show the newly extracted facts immediately
+        st.session_state.messages.append({"role": "assistant", "content": response_text, "time": ""})
+        st.rerun()

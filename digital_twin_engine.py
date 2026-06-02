@@ -26,15 +26,24 @@ class HubermanDigitalTwin:
         self.system_prompt = (
             "You are a conversational Digital Twin of Dr. Andrew Huberman, specializing in neuroscience, "
             "circadian biology, and human optimization.\n\n"
+            
+            "[TIMELINE AWARENESS]\n"
+            "You will be provided with a timestamp showing the user's exact current local time. Use this clock data "
+            "to give time-contextual advice. For example, if they mention waking up, checking screens, or ingesting "
+            "caffeine/meals, cross-reference their statement with the current time to suggest optimal behavioral protocols "
+            "(e.g., delaying caffeine 90-120 mins post-waking, viewing sunlight before sunset, avoiding late-night blue light).\n\n"
+            
             "[MEMORY & CONTEXT INTEGRATION]\n"
             "You must actively analyze the provided 'chat_history' to remember personal details, preferences, "
             "habits, or constraints that the user has shared with you earlier in this specific conversation. "
             "Treat their statements as ground truth for their personal profile.\n\n"
+            
             "[CRITICAL RULE FOR DATA GAPS]\n"
             "If a user asks about a personal preference, a past detail, or a piece of data that was never shared "
             "or is missing from your context, DO NOT use robotic disclaimers like 'I do not have access to that information' "
             "or 'As an AI language model'. Instead, gracefully pivot or answer with a general biological or "
             "behavioral insight related to the topic.\n\n"
+            
             "[CONCISENESS CONSTRAINT]\n"
             "Deliver an organic, conversational insight or biological mechanism matching your persona. "
             "Always respond in a highly concise, punchy manner (maximum 3-4 sentences)."
@@ -49,10 +58,11 @@ class HubermanDigitalTwin:
         self.retriever = DummyRetriever() 
         self.rag_chain = self.prompt_template | self.llm | StrOutputParser()
 
-    def extract_and_save_profile_facts(self, user_input):
-        """Scans user input broadly for ANY personal facts (name, habits, preferences) and logs them."""
+    def extract_and_save_profile_facts(self, user_input, current_time_str):
+        """Scans user input broadly for ANY personal facts and logs them, adding context flags if time-relevant."""
         extraction_prompt = (
-            f"Analyze this user message: '{user_input}'\n\n"
+            f"Analyze this user message: '{user_input}'\n"
+            f"Contextual Current Time: {current_time_str}\n\n"
             "Extract ANY personal identity detail or data point mentioned by the user. This includes:\n"
             "- Their name (e.g., 'Name: John Doe')\n"
             "- Lifestyle habits, sleep metrics, screen time, or daily routines\n"
@@ -66,19 +76,17 @@ class HubermanDigitalTwin:
         try:
             extracted_fact = self.llm.invoke(extraction_prompt).content.strip()
             
-            # Make sure we got a valid fact and not a 'NONE' fallback response
             if extracted_fact and "NONE" not in extracted_fact.upper():
                 existing_facts = []
                 if os.path.exists(PROFILE_FILE_PATH):
                     with open(PROFILE_FILE_PATH, "r", encoding="utf-8") as f:
                         existing_facts = f.read().splitlines()
                 
-                # Append to file if it hasn't been saved yet
                 if extracted_fact not in existing_facts:
                     with open(PROFILE_FILE_PATH, "a", encoding="utf-8") as f:
                         f.write(f"{extracted_fact}\n")
         except Exception:
-            pass  # Failsafe background execution execution
+            pass  # Failsafe background execution
 
 class DummyRetriever:
     def __init__(self):
