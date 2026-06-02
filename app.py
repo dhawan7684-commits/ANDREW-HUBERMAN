@@ -49,7 +49,7 @@ if user_query := st.chat_input("Message your Digital Twin..."):
             try:
                 from langchain_core.messages import HumanMessage, AIMessage
                 
-                # Re-map memory to proper LangChain Message Objects
+                # Re-map memory to proper LangChain Message Objects (Fixes Type Error)
                 formatted_history = []
                 for msg in st.session_state.messages[:-1]:
                     if msg["role"] == "user":
@@ -57,9 +57,17 @@ if user_query := st.chat_input("Message your Digital Twin..."):
                     else:
                         formatted_history.append(AIMessage(content=msg["content"]))
                 
+                # Inject a strict constraint to force conversational, punchy, short answers
+                concise_query = (
+                    f"{user_query}\n\n"
+                    "[Constraint: Provide a highly concise, punchy response (max 3-4 sentences). "
+                    "Deliver an organic, conversational insight or biological mechanism matching your persona. "
+                    "Do not provide massive breakdowns, long preambles, or unprompted multi-step lists unless explicitly asked.]"
+                )
+                
                 # Execute pipeline invocation
                 raw_response = twin_engine.rag_chain.invoke({
-                    "input": user_query, 
+                    "input": concise_query, 
                     "chat_history": formatted_history
                 })
                 
